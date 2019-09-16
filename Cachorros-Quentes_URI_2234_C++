@@ -1,0 +1,18 @@
+#include<iostream>
+#include<iomanip>
+
+using namespace std;
+
+int main ()
+{
+
+    double H,P;
+    double med;
+
+    cin>>H>>P;
+
+    med = H/P;
+
+    cout<< setprecision(2)<<fixed<<med<<endl;
+    return 0;
+}
